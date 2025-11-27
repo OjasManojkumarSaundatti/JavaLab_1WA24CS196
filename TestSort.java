@@ -14,7 +14,7 @@ class Sort {
         }
     }
 
-    void sortDescend(int arr[],  int n) {
+    void sortDescend(int arr[], int n) {
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
                 if (arr[j] < arr[j + 1]) {
@@ -44,7 +44,7 @@ public class TestSort {
         System.out.println("Input number of integers to sort:");
         n = sc.nextInt();
 
-        int array[] = new int[10];
+        int array[] = new int[1];
 
         System.out.println("Enter " + n + " integers:");
 
